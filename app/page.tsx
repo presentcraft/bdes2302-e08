@@ -1,3 +1,5 @@
+export const instant = false;
+
 import { createClient } from '@/utils/supabase/server'
 import { cookies } from 'next/headers'
 
